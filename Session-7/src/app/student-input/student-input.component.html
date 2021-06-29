@@ -1,0 +1,17 @@
+<div class="container">
+  <label for="Name">Name</label>
+  <input type="text" #stName>
+  <label for="age">Age</label>
+  <input type="text" #stAge>
+  <label for="city">City</label>
+  <input type="text" #stCity>
+  <label for="card-color">Card Colour</label>
+  <input type="text" #cardColour>
+  <button class="sub-button"   (click)= "onSubmit({
+    name:stName.value,
+    age:+stAge.value,
+    city:stCity.value,
+    cardColour:cardColour.value
+  })">Submit</button>
+  <p>{{ student_created_status }}</p>
+</div>

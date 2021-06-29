@@ -1,0 +1,53 @@
+.card-container{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.nav-bar {
+  height: 60px;
+  width: 100vw;
+  background-color: orange;
+}
+.logo {
+  float: left;
+  margin-left: 30px;
+}
+.logo-text{
+  font-size: 28px;
+  font-family: cursive;
+  font-weight: 700;
+  margin: 6px;
+  color: white;
+  letter-spacing: 5px;
+}
+.logo-text::first-letter{
+  font-size: 35px;
+}
+.nav-items {
+  float: right;
+}
+.nav-items a{
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  margin: 9px;
+  width: 150px;
+}
+.nav-item {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 3px;
+
+}
+.nav-item:hover{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  background-color: white;
+  border-radius: 10px;
+}

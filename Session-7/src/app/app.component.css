@@ -1,0 +1,14 @@
+.top-container{
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  height: 100vh;
+}
+.card-container{
+
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow: auto;
+}

@@ -1,0 +1,9 @@
+<div class="top-container">
+  <app-student-input (studentSubmited)="onStudentSubmited($event)"></app-student-input>
+ <div class="card-container">
+  <app-student-card
+  *ngFor="let student of students; let i=index"
+  [student]= "students[i]"></app-student-card>
+ </div>
+</div>
+
